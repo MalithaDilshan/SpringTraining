@@ -17,4 +17,4 @@
   
 *Tesing URL
   http://localhost:9090/Spring_MVC_Training_01/add?t1=1&t2=4
-  http://localhost:9090/Spring_MVC_Training_01/sub?t1=1&t2=4  ( Testing with diffrent controller )
+  
