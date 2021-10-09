@@ -18,3 +18,6 @@ public class WebInitializer extends AbstractAnnotationConfigDispatcherServletIni
         return new String[]{"/"};
     }
 }
+
+
+// URL - http://localhost:9090/Spring_MVC_Training_01/add?t1=1&t2=2
