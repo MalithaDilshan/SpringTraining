@@ -18,3 +18,16 @@
 *Tesing URL
   http://localhost:9090/Spring_MVC_Training_01/add?t1=1&t2=4
   
+
+
+*Get the first page according to the url
+![image](https://user-images.githubusercontent.com/19968541/136645567-967eefc3-c861-4098-9509-86861ea5031c.png)
+
+![image](https://user-images.githubusercontent.com/19968541/136645643-dd92ab30-3e60-46e1-8997-264ad96e1e5f.png)
+
+
+*When hitting the submit botton it will perform the "add" action. According to that it will get the JSP page result and display in the browser
+![image](https://user-images.githubusercontent.com/19968541/136645617-f49df5b4-ff68-4ce0-b851-4043a1a4ae50.png)
+
+![image](https://user-images.githubusercontent.com/19968541/136645628-3e64c630-0eca-49b7-bf91-1c32ac88a19e.png)
+
