@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 public class Deer implements Animal{
 
     private String message;
+    private Tail tail;
 
     public Deer()
     {
@@ -30,6 +31,14 @@ public class Deer implements Animal{
     @Override
     public String getMessage() {
         return this.message;
+    }
+
+    public Tail getTail() {
+        return tail;
+    }
+
+    public void setTail(Tail tail) {
+        this.tail = tail;
     }
 
     @Override

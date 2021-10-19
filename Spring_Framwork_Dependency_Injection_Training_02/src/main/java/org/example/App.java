@@ -44,6 +44,14 @@ public class App
         Cage cage = (Cage) applicationContext.getBean("cage");
         System.out.println( cage );
 
+        /**
+         * Auto wired annotation - Auto wired annotation will find the object based on the @Component annotation
+         * we can use the both annotation based configurations and xml based configurations at the same time, here
+         * I am using only the xml based configuration
+         */
+
+        Lion lion = (Lion) applicationContext.getBean("lion");
+        lion.printProperty();
 
     }
 }

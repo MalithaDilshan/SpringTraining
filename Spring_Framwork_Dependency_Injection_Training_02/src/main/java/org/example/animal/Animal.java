@@ -6,4 +6,8 @@ public interface Animal {
     void setMessage(String message);
 
     String getMessage();
+
+    Tail getTail();
+
+    void setTail(Tail tale);
 }

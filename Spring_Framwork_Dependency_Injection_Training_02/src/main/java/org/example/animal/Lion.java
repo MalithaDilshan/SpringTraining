@@ -1,11 +1,15 @@
 package org.example.animal;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
 public class Lion implements Animal{
 
     private String message;
+
+    @Autowired
+    private Tail tail;
 
     public Lion()
     {
@@ -20,6 +24,14 @@ public class Lion implements Animal{
     private void init()
     {
         this.message = "";
+    }
+
+    public Tail getTail() {
+        return tail;
+    }
+
+    public void setTail(Tail tail) {
+        this.tail = tail;
     }
 
     @Override
@@ -42,5 +54,12 @@ public class Lion implements Animal{
         return "Lion{" +
                 "message='" + message + '\'' +
                 '}';
+    }
+
+    public void printProperty()
+    {
+        StringBuilder sb = new StringBuilder();
+        sb.append(tail);
+        System.out.println( sb );
     }
 }

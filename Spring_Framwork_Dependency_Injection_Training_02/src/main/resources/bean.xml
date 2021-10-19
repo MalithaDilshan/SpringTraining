@@ -16,6 +16,7 @@
     -->
     <!-- Using the annotation based configuration using the @Component in the Java POJO-->
     <context:component-scan base-package="org.example.animal"/>
+
     <bean id = "cage" class = "org.example.habitat.Cage">
         <constructor-arg value="Cage builds in trees"/>
     </bean>
