@@ -31,3 +31,51 @@
 
 ![image](https://user-images.githubusercontent.com/19968541/136645628-3e64c630-0eca-49b7-bf91-1c32ac88a19e.png)
 
+
+# [02] Project for Spring framework dependency injection concept using the configured xml 
+
+Simply this project created using the 'quickStart arctype' and added the relevent dependencies for the Spring framework.
+Basically this project will demostrate the dependency injection concept in the Spring to acheive the 'Loose coupling' by 
+configuring the bean.xml file
+
+*Simple bean definition in the xml
+![image](https://user-images.githubusercontent.com/19968541/137922117-d80b204f-5b3c-4fa5-b9fa-01d5ed88f92a.png)
+
+*Usage of the bean.xml file for getting the Animal object
+![image](https://user-images.githubusercontent.com/19968541/137922534-bc755afd-ac70-468c-add0-357a2d2a424a.png)
+
+*This is the bean configuration for the Annotation based implementation. Here we can directy call the dependent class with the name.
+![image](https://user-images.githubusercontent.com/19968541/137922762-04c4bcba-a48e-4a2c-9048-9181103d6795.png)
+
+
+![image](https://user-images.githubusercontent.com/19968541/137923247-b6c2636b-5d12-494c-8fd2-28d80efd53e1.png)
+![image](https://user-images.githubusercontent.com/19968541/137923327-4339bfd7-171f-4624-9487-f03f09d180c9.png)
+
+*Autowired implementation ( With construction injection )
+![image](https://user-images.githubusercontent.com/19968541/137923622-6b9bdb55-ff5c-4fda-a9fe-bc935ef1b753.png)
+
+![image](https://user-images.githubusercontent.com/19968541/137923759-5b3426cb-75c0-40fd-b5d9-be0a6443349a.png)
+
+
+# [03] Project for Spring core annotation based implementation
+
+![image](https://user-images.githubusercontent.com/19968541/137966092-00aed7bb-1da1-40cb-9359-c11d0c516d53.png)
+
+1. Use the getter for beans with @Configuration annotation 
+
+![image](https://user-images.githubusercontent.com/19968541/137965128-62874e87-29fc-457d-9ca4-f8491ad509b7.png)
+
+2. Use the @ComponentScan annotation to scan all the components (beans) without getters. It should be declare the @Component annotation and @Autowired for dependent classes
+
+![image](https://user-images.githubusercontent.com/19968541/137965358-8673d531-a384-45f7-87c7-ed3fece96bc3.png)
+![image](https://user-images.githubusercontent.com/19968541/137965619-3c313e3f-7750-4c50-95ab-1d14f6546e68.png)
+![image](https://user-images.githubusercontent.com/19968541/137965688-cefca85d-d531-4cc5-a257-16a31389445c.png)
+
+3. If there are several implemntation under a interface for the dependent class, need to use @Primary annotation or @Qualifier annotation to avoid the confusion 
+
+![image](https://user-images.githubusercontent.com/19968541/137965877-f3c32740-da6c-45fc-84ec-1fd31d667a6e.png)  
+
+![image](https://user-images.githubusercontent.com/19968541/137966022-b420d859-c629-443c-992e-b056e41c5897.png)
+
+
+
