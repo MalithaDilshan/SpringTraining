@@ -74,7 +74,7 @@ configuring the bean.xml file
 3. If there are several implemntation under a interface for the dependent class, need to use @Primary annotation or @Qualifier annotation to avoid the confusion 
 
 ![image](https://user-images.githubusercontent.com/19968541/137965877-f3c32740-da6c-45fc-84ec-1fd31d667a6e.png)  
-OR
+
 ![image](https://user-images.githubusercontent.com/19968541/137966022-b420d859-c629-443c-992e-b056e41c5897.png)
 
 
